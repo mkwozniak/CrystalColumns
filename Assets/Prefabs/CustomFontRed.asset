@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232c6c58b86a166478604dbb3efeb0b4, type: 3}
+  m_Name: CustomFontRed
+  m_EditorClassIdentifier: 
+  CharacterList:
+  - CharacterSprite: {fileID: 646313413, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: A
+  - CharacterSprite: {fileID: 1347348333, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: B
+  - CharacterSprite: {fileID: -1312317510, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: C
+  - CharacterSprite: {fileID: -1890507804, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: D
+  - CharacterSprite: {fileID: -1923913119, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: E
+  - CharacterSprite: {fileID: -324509223, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: F
+  - CharacterSprite: {fileID: -443366328, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: G
+  - CharacterSprite: {fileID: 1110433065, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: H
+  - CharacterSprite: {fileID: 2026228031, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: I
+  - CharacterSprite: {fileID: 561573786, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: J
+  - CharacterSprite: {fileID: -1208354684, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: K
+  - CharacterSprite: {fileID: 160185190, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: L
+  - CharacterSprite: {fileID: -1268607845, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: M
+  - CharacterSprite: {fileID: -724043024, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: N
+  - CharacterSprite: {fileID: 110150649, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: O
+  - CharacterSprite: {fileID: 1961691351, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: P
+  - CharacterSprite: {fileID: 1251816443, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: Q
+  - CharacterSprite: {fileID: 1168210363, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: R
+  - CharacterSprite: {fileID: -1064790512, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: S
+  - CharacterSprite: {fileID: -1747744241, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: T
+  - CharacterSprite: {fileID: 1901331772, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: U
+  - CharacterSprite: {fileID: -297038383, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: V
+  - CharacterSprite: {fileID: -1678406880, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: W
+  - CharacterSprite: {fileID: 735354838, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: X
+  - CharacterSprite: {fileID: -1666391977, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: Y
+  - CharacterSprite: {fileID: -464810477, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: Z
+  - CharacterSprite: {fileID: -160724366936632991, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: _
+  - CharacterSprite: {fileID: -160724366936632991, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: ' '
+  - CharacterSprite: {fileID: 1433273252, guid: 091285a64b0e7cd4fb339d2732709324, type: 3}
+    Character: .
+  - CharacterSprite: {fileID: -664078900, guid: 091285a64b0e7cd4fb339d2732709324, type: 3}
+    Character: /
+  - CharacterSprite: {fileID: 437828804, guid: 091285a64b0e7cd4fb339d2732709324, type: 3}
+    Character: '-'

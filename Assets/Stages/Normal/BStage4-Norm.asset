@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87aea5adda8c05489aea179e39ae83c, type: 3}
+  m_Name: BStage4-Norm
+  m_EditorClassIdentifier: 
+  LevelNumber: 004
+  LevelName: 
+  SpawnNewStage: 1
+  StageObject: {fileID: 486197836289759442, guid: b150f4846b885784a9b9b94d5e636bb7, type: 3}
+  InitializeDropAmount: 42
+  InitialGemsNeeded: 24
+  InitialTime: 90
+  BaseTimeGain: 1
+  BaseScoreGain: 10
+  SubStages:
+  - nextDropTime: 45
+    dropAmountMax: 16
+  - nextDropTime: 45
+    dropAmountMax: 16
+  - nextDropTime: 45
+    dropAmountMax: 16
+  - nextDropTime: 45
+    dropAmountMax: 16
+  MusicID: stage1
+  BGColor1: {r: 0.08627451, g: 0.3529412, b: 0.29803923, a: 1}
+  BGColor2: {r: 0.13725491, g: 0.5647059, b: 0.3882353, a: 1}
+  GemSpeed: 32
+  AutoShootTime: 5

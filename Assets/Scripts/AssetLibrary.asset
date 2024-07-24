@@ -1,0 +1,758 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a8a3dbe7d196144862bd5d57b1ef82, type: 3}
+  m_Name: AssetLibrary
+  m_EditorClassIdentifier: 
+  SoundEffectPrefab: {fileID: 7764435362300186063, guid: 5326aaed113587f43a3d9eb791d241f5, type: 3}
+  blitzLevelList:
+  - name: easy
+    Stages:
+    - {fileID: 11400000, guid: e25f51dca60284347bea3a5476980508, type: 2}
+    - {fileID: 11400000, guid: c60af648f325ece4184d8a1f1eb8f01d, type: 2}
+    - {fileID: 11400000, guid: 21d1981aa3c913b4c9b0ab6ccfee7612, type: 2}
+    - {fileID: 11400000, guid: 15b4cf1bdbb4cfd4d90ceea51805d9a8, type: 2}
+    - {fileID: 11400000, guid: 54c7ce57f736caf488dbf5ce73fdd13b, type: 2}
+    - {fileID: 11400000, guid: bd20d5c9c2c0a8e479f829b3b812e8ac, type: 2}
+    - {fileID: 11400000, guid: 164260bf72d2f8a459286a8bd72e40fe, type: 2}
+    - {fileID: 11400000, guid: fd7ff4414e929134abe0826c5b8b4a3e, type: 2}
+    - {fileID: 11400000, guid: 4693ac18ecf6a26408c8a22de25ddcdb, type: 2}
+    - {fileID: 11400000, guid: 82ed04a09f5c1954191b7404cf01ca07, type: 2}
+    - {fileID: 11400000, guid: 2bac085f51ade3f43bd957fe4336163f, type: 2}
+    - {fileID: 11400000, guid: 4d5351273fecb6c428a023cac7678b66, type: 2}
+    - {fileID: 11400000, guid: 07ccb64d98124cd4c98f1735cfe2a708, type: 2}
+    - {fileID: 11400000, guid: f8d789ceb6953ef4f9d3328734ab0d6f, type: 2}
+    - {fileID: 11400000, guid: 3132a1177ab2af14181cb177c6809aa4, type: 2}
+    - {fileID: 11400000, guid: 10ebe7255f8d1254280e7219d2d9a032, type: 2}
+    - {fileID: 11400000, guid: 0da1e69f1bdf2fc49ae70d59604f567f, type: 2}
+    - {fileID: 11400000, guid: c8a6a24b8fa39fe4389b6c7703f59767, type: 2}
+    - {fileID: 11400000, guid: 88d1056c44f31f749b290c07318d7774, type: 2}
+    - {fileID: 11400000, guid: 33f1ff30be1dafe43bcfb0032149d265, type: 2}
+    - {fileID: 11400000, guid: 471e040a45099f4468c2ab2a8a4ff16f, type: 2}
+    - {fileID: 11400000, guid: ac57ab8eff609ac478266cacb05926d1, type: 2}
+    - {fileID: 11400000, guid: 02a65b9f703d7c74e8a0830e80d88541, type: 2}
+    - {fileID: 11400000, guid: 52dd9bc49fabfb044b783b65a0d345a6, type: 2}
+    possibleGems:
+    - gemName: emerald
+      sprite: {fileID: 1746794706989447038, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -4672790576089934573, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -4672790576089934573, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: e0072e99fd978b94aabfd864aa9ec576, type: 2}
+      ghostTile: {fileID: 11400000, guid: 871ca9ba610f62f479913ff36ae63f98, type: 2}
+    - gemName: ruby
+      sprite: {fileID: -232199251784331938, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -16793423984005362, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -16793423984005362, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 96dbee59d5a154844a577dfd005dd9d2, type: 2}
+      ghostTile: {fileID: 11400000, guid: eedad733af701fb40acc0f1369ac9510, type: 2}
+    - gemName: sapphire
+      sprite: {fileID: 5840603745321418647, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: 8486993253046354261, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: 8486993253046354261, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 15a85fdfde7262642a464985e814147a, type: 2}
+      ghostTile: {fileID: 11400000, guid: fec6d8f33e9174b4889db5d61eadc54b, type: 2}
+    - gemName: topaz
+      sprite: {fileID: 5817121085498563684, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -2511356291957038328, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -2511356291957038328, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 56a6dc7fe8cee644f93a66f5e8a8f0e8, type: 2}
+      ghostTile: {fileID: 11400000, guid: 59c5ea19fb9c44a4eabe93ec508ca657, type: 2}
+    - gemName: amethyst
+      sprite: {fileID: -7995427946482172144, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -7335531085601356040, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -7335531085601356040, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 2ffa2ea53f09d6143bcf32e4501c3f12, type: 2}
+      ghostTile: {fileID: 11400000, guid: 77f11fc18e789084db21111d1b8948af, type: 2}
+    - gemName: diamond
+      sprite: {fileID: 7063906336278421090, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: 3598714856469743548, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: 3598714856469743548, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: ff1e0a66fcb96194bba82b8114c0874d, type: 2}
+      ghostTile: {fileID: 11400000, guid: ae7d4a21eb1e1d741b13496c125ebc22, type: 2}
+  - name: normal
+    Stages:
+    - {fileID: 11400000, guid: 98f47db2862a0d643a5afa9f5526856a, type: 2}
+    - {fileID: 11400000, guid: 77e0f77fcaac4914a8b9e90cdde7b135, type: 2}
+    - {fileID: 11400000, guid: 8e6700418b5789246b4e5ce6d661127a, type: 2}
+    - {fileID: 11400000, guid: a8e596faf304e41408647fa3097f4e48, type: 2}
+    - {fileID: 11400000, guid: 489d59de20c0c2549b1cc84a764d238b, type: 2}
+    - {fileID: 11400000, guid: a5b57aaf5e172324b8f0dd1142a79879, type: 2}
+    - {fileID: 11400000, guid: f689761c29e7da2418967e642a9a10ba, type: 2}
+    - {fileID: 11400000, guid: 08d8080ca97c3df45ab2499659b9c6a4, type: 2}
+    - {fileID: 11400000, guid: 1a939cf5992856a41afca4dd52cd0dd9, type: 2}
+    - {fileID: 11400000, guid: 51a66cb80fb89a447b0517d8c66c540c, type: 2}
+    - {fileID: 11400000, guid: 24437a76f7e10ca44a0d988cca4066f1, type: 2}
+    - {fileID: 11400000, guid: 492fb28ef147f4c418d65c8c540b1344, type: 2}
+    - {fileID: 11400000, guid: f5f2c1396e46a8645947f5be0fd1035d, type: 2}
+    - {fileID: 11400000, guid: 984ac5016b99f454cbba15f3b9aea8bd, type: 2}
+    - {fileID: 11400000, guid: 78e868a03b902264399aae1ef2eb4201, type: 2}
+    - {fileID: 11400000, guid: 4f6644556c5e2f34faad6f932973cd00, type: 2}
+    - {fileID: 11400000, guid: 20299db34996e074db88de963d7d386f, type: 2}
+    - {fileID: 11400000, guid: 13f6d0eac14038244bfa167698493828, type: 2}
+    - {fileID: 11400000, guid: 7b19395891337d54c8ab5df0e991c1e8, type: 2}
+    - {fileID: 11400000, guid: ccb4792933394f3468a179f2dbc0398d, type: 2}
+    - {fileID: 11400000, guid: 990429829c763264cbe0b00320bc81bd, type: 2}
+    - {fileID: 11400000, guid: 21dfe58b148d4464cb00b692e65d7e26, type: 2}
+    - {fileID: 11400000, guid: cf6c840138bdcae408d913c08fddccf7, type: 2}
+    - {fileID: 11400000, guid: 9fe086ad8aa73ef48b04adfe1af093c6, type: 2}
+    possibleGems:
+    - gemName: emerald
+      sprite: {fileID: 1746794706989447038, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -4672790576089934573, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -4672790576089934573, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: e0072e99fd978b94aabfd864aa9ec576, type: 2}
+      ghostTile: {fileID: 11400000, guid: 871ca9ba610f62f479913ff36ae63f98, type: 2}
+    - gemName: ruby
+      sprite: {fileID: -232199251784331938, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -16793423984005362, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -16793423984005362, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 96dbee59d5a154844a577dfd005dd9d2, type: 2}
+      ghostTile: {fileID: 11400000, guid: eedad733af701fb40acc0f1369ac9510, type: 2}
+    - gemName: sapphire
+      sprite: {fileID: 5840603745321418647, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: 8486993253046354261, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: 8486993253046354261, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 15a85fdfde7262642a464985e814147a, type: 2}
+      ghostTile: {fileID: 11400000, guid: fec6d8f33e9174b4889db5d61eadc54b, type: 2}
+    - gemName: topaz
+      sprite: {fileID: 5817121085498563684, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -2511356291957038328, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -2511356291957038328, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 56a6dc7fe8cee644f93a66f5e8a8f0e8, type: 2}
+      ghostTile: {fileID: 11400000, guid: 59c5ea19fb9c44a4eabe93ec508ca657, type: 2}
+    - gemName: amethyst
+      sprite: {fileID: -7995427946482172144, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -7335531085601356040, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -7335531085601356040, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 2ffa2ea53f09d6143bcf32e4501c3f12, type: 2}
+      ghostTile: {fileID: 11400000, guid: 77f11fc18e789084db21111d1b8948af, type: 2}
+    - gemName: diamond
+      sprite: {fileID: 7063906336278421090, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: 3598714856469743548, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: 3598714856469743548, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: ff1e0a66fcb96194bba82b8114c0874d, type: 2}
+      ghostTile: {fileID: 11400000, guid: ae7d4a21eb1e1d741b13496c125ebc22, type: 2}
+  - name: hard
+    Stages:
+    - {fileID: 11400000, guid: 6dd75fb342f7ea14fb6890eb85d2cd73, type: 2}
+    - {fileID: 11400000, guid: e2c78a6511f993543a2176bc4c757b65, type: 2}
+    - {fileID: 11400000, guid: bbfa4db84e9407a46ac6176df67d4274, type: 2}
+    - {fileID: 11400000, guid: e14b269796c172840930897a32395468, type: 2}
+    - {fileID: 11400000, guid: 2574f55ceca4d9e49872a505db6de4af, type: 2}
+    - {fileID: 11400000, guid: d027a5289249900449dfe8a19ecb9b43, type: 2}
+    - {fileID: 11400000, guid: 0937386e29e60a14494bfb6eda0cd0c7, type: 2}
+    - {fileID: 11400000, guid: 6edc770bdc43b8441a05b8f1b719ea28, type: 2}
+    - {fileID: 11400000, guid: 81510d0231afa4348b6e186b18d0ce52, type: 2}
+    - {fileID: 11400000, guid: 36bb8af9b74d8404c8b08887b290124e, type: 2}
+    - {fileID: 11400000, guid: 72c0bc32a88ff34488fe48543a225bdb, type: 2}
+    - {fileID: 11400000, guid: 1e69c02ccf26d4d429b42c89b96e2c31, type: 2}
+    - {fileID: 11400000, guid: 147a279efbe888c48975034b7945f82f, type: 2}
+    - {fileID: 11400000, guid: 49490445e2e40ff4ca799be3263545f2, type: 2}
+    - {fileID: 11400000, guid: 85c7cd0b40de2484297d373a70c5106b, type: 2}
+    - {fileID: 11400000, guid: bb9cc1f70f9d43f48997fab419b4889e, type: 2}
+    - {fileID: 11400000, guid: b4f547c91a8319946bd01c59bc6f4c8a, type: 2}
+    - {fileID: 11400000, guid: d0d59ff6078aa2743bad54db63814a5f, type: 2}
+    - {fileID: 11400000, guid: 89574595e5755ef429630cc14c3e5ba6, type: 2}
+    - {fileID: 11400000, guid: 59b5e825ac163084bb25fbb5ffe52bc6, type: 2}
+    - {fileID: 11400000, guid: 13f4c8898a739ef47b403611e6abcff0, type: 2}
+    - {fileID: 11400000, guid: de3fdd8bd80a83740950066a3693adb1, type: 2}
+    - {fileID: 11400000, guid: 7d2e91ecfca3a674fbc8431f59493472, type: 2}
+    - {fileID: 11400000, guid: 1817a564819ddb14089941d7a25bf767, type: 2}
+    possibleGems:
+    - gemName: emerald
+      sprite: {fileID: 1746794706989447038, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -4672790576089934573, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -4672790576089934573, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: e0072e99fd978b94aabfd864aa9ec576, type: 2}
+      ghostTile: {fileID: 11400000, guid: 871ca9ba610f62f479913ff36ae63f98, type: 2}
+    - gemName: ruby
+      sprite: {fileID: -232199251784331938, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -16793423984005362, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -16793423984005362, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 96dbee59d5a154844a577dfd005dd9d2, type: 2}
+      ghostTile: {fileID: 11400000, guid: eedad733af701fb40acc0f1369ac9510, type: 2}
+    - gemName: sapphire
+      sprite: {fileID: 5840603745321418647, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: 8486993253046354261, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: 8486993253046354261, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 15a85fdfde7262642a464985e814147a, type: 2}
+      ghostTile: {fileID: 11400000, guid: fec6d8f33e9174b4889db5d61eadc54b, type: 2}
+    - gemName: topaz
+      sprite: {fileID: 5817121085498563684, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -2511356291957038328, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -2511356291957038328, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 56a6dc7fe8cee644f93a66f5e8a8f0e8, type: 2}
+      ghostTile: {fileID: 11400000, guid: 59c5ea19fb9c44a4eabe93ec508ca657, type: 2}
+    - gemName: amethyst
+      sprite: {fileID: -7995427946482172144, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -7335531085601356040, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -7335531085601356040, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 2ffa2ea53f09d6143bcf32e4501c3f12, type: 2}
+      ghostTile: {fileID: 11400000, guid: 77f11fc18e789084db21111d1b8948af, type: 2}
+    - gemName: diamond
+      sprite: {fileID: 7063906336278421090, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: 3598714856469743548, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: 3598714856469743548, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: ff1e0a66fcb96194bba82b8114c0874d, type: 2}
+      ghostTile: {fileID: 11400000, guid: ae7d4a21eb1e1d741b13496c125ebc22, type: 2}
+  - name: expert
+    Stages:
+    - {fileID: 11400000, guid: d2fcb99cae8445648aadfbaa95049b24, type: 2}
+    - {fileID: 11400000, guid: 6f284b74128495649a12bbb8bc861e02, type: 2}
+    - {fileID: 11400000, guid: 7e628870c4c174049b855b20c4cdf297, type: 2}
+    - {fileID: 11400000, guid: ecf8508b596bca749afed1d46eedda76, type: 2}
+    - {fileID: 11400000, guid: c6233eae08ef39e4891d08da29ecde9a, type: 2}
+    - {fileID: 11400000, guid: 7fabe9ed7937a7d47940743d7aa26910, type: 2}
+    - {fileID: 11400000, guid: 43144110c6551a048b760413d0cbdf66, type: 2}
+    - {fileID: 11400000, guid: c5b3d7f53ccb0ba41a1dc49043523809, type: 2}
+    - {fileID: 11400000, guid: 370330d5437f85042b8604172ce08713, type: 2}
+    - {fileID: 11400000, guid: b0183b7bc1242a54c9789d54e321a02e, type: 2}
+    - {fileID: 11400000, guid: bc8d2d40b038a8d47923abf21eff1c2d, type: 2}
+    - {fileID: 11400000, guid: 7c21282ad16fcbf4ab4db736803e1397, type: 2}
+    - {fileID: 11400000, guid: ad9baa2e4f22ee040998c018cf184612, type: 2}
+    - {fileID: 11400000, guid: ffc281f048ff7204480f1e4e28c36836, type: 2}
+    - {fileID: 11400000, guid: ab86fb8dc9ec7454a92e9ae18de66458, type: 2}
+    - {fileID: 11400000, guid: 62e96bae18d0c834481a44ef51e79ba3, type: 2}
+    - {fileID: 11400000, guid: 5cfd533b78208de4d8ff5ed9bf899bd8, type: 2}
+    - {fileID: 11400000, guid: 538d9a596063b384788126e1b0983722, type: 2}
+    - {fileID: 11400000, guid: a866d0281b16b8e4daf5403dcbe483b9, type: 2}
+    - {fileID: 11400000, guid: aaded0f9853e1c84bb9b537a147a3963, type: 2}
+    - {fileID: 11400000, guid: c876013ac1d7a574caef7d8dd583956d, type: 2}
+    - {fileID: 11400000, guid: 62ef8009213d06e41b924ab1499e6ada, type: 2}
+    - {fileID: 11400000, guid: d32ebd144b9836143a8c94672248c674, type: 2}
+    - {fileID: 11400000, guid: 01f3cc079fdc2724cb42c72832c7d052, type: 2}
+    possibleGems:
+    - gemName: emerald
+      sprite: {fileID: 1746794706989447038, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -4672790576089934573, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -4672790576089934573, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: e0072e99fd978b94aabfd864aa9ec576, type: 2}
+      ghostTile: {fileID: 11400000, guid: 871ca9ba610f62f479913ff36ae63f98, type: 2}
+    - gemName: ruby
+      sprite: {fileID: -232199251784331938, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -16793423984005362, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -16793423984005362, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 96dbee59d5a154844a577dfd005dd9d2, type: 2}
+      ghostTile: {fileID: 11400000, guid: eedad733af701fb40acc0f1369ac9510, type: 2}
+    - gemName: sapphire
+      sprite: {fileID: 5840603745321418647, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: 8486993253046354261, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: 8486993253046354261, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 15a85fdfde7262642a464985e814147a, type: 2}
+      ghostTile: {fileID: 11400000, guid: fec6d8f33e9174b4889db5d61eadc54b, type: 2}
+    - gemName: topaz
+      sprite: {fileID: 5817121085498563684, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -2511356291957038328, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -2511356291957038328, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 56a6dc7fe8cee644f93a66f5e8a8f0e8, type: 2}
+      ghostTile: {fileID: 11400000, guid: 59c5ea19fb9c44a4eabe93ec508ca657, type: 2}
+    - gemName: amethyst
+      sprite: {fileID: -7995427946482172144, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: -7335531085601356040, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: -7335531085601356040, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: 2ffa2ea53f09d6143bcf32e4501c3f12, type: 2}
+      ghostTile: {fileID: 11400000, guid: 77f11fc18e789084db21111d1b8948af, type: 2}
+    - gemName: diamond
+      sprite: {fileID: 7063906336278421090, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      ui_sprite: {fileID: 3598714856469743548, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      aim_sprite: {fileID: 3598714856469743548, guid: 84e51fd168b6a5c4db4f2467bd00de7f, type: 3}
+      tile: {fileID: 11400000, guid: ff1e0a66fcb96194bba82b8114c0874d, type: 2}
+      ghostTile: {fileID: 11400000, guid: ae7d4a21eb1e1d741b13496c125ebc22, type: 2}
+  musicList:
+  - name: theme
+    clip: {fileID: 8300000, guid: 5c066ce17dd00e9428f7897cb8cc1ac4, type: 3}
+  - name: between_stages
+    clip: {fileID: 8300000, guid: 8fc06f24cceb5c64282f9129796a23e0, type: 3}
+  - name: stage1
+    clip: {fileID: 8300000, guid: 2655453dbed43c14281a97398b0b7efd, type: 3}
+  - name: stage1-1
+    clip: {fileID: 8300000, guid: 9c78faf40953cc2459c677309f13d5a7, type: 3}
+  - name: stage1-2
+    clip: {fileID: 8300000, guid: f1120872bdec61644991ef8e5a9f2c38, type: 3}
+  - name: stage2
+    clip: {fileID: 8300000, guid: b82cdc54def5fc746876759b4f42bc34, type: 3}
+  - name: stage2-1
+    clip: {fileID: 8300000, guid: f9606393b168a1249ae514681c203579, type: 3}
+  - name: stage2-2
+    clip: {fileID: 8300000, guid: 7be4ba6d36adc534f8dd8a636f0605c0, type: 3}
+  - name: stage3
+    clip: {fileID: 8300000, guid: d17d2a3fbc3a4b64b941c1b7c7c1d29e, type: 3}
+  - name: stage3-1
+    clip: {fileID: 8300000, guid: 3b1086be2d2678440aa3be8e92345858, type: 3}
+  - name: stage3-2
+    clip: {fileID: 8300000, guid: f452ecf928c9ba2429183ecb85d8e14e, type: 3}
+  - name: stage4
+    clip: {fileID: 8300000, guid: cc4db6677cccede4aaddf5f79d82467b, type: 3}
+  - name: stage4-1
+    clip: {fileID: 8300000, guid: 03a30a47abcd8da42a1088956563fee4, type: 3}
+  - name: stage4-2
+    clip: {fileID: 8300000, guid: 94f3acc57e583e04898d016b1a0fb816, type: 3}
+  - name: stage7
+    clip: {fileID: 8300000, guid: 59c3cd2f562f1854293302909cee4b4e, type: 3}
+  - name: stage7-1
+    clip: {fileID: 8300000, guid: 8ca8d9c147d015a4cae894f4abd0426e, type: 3}
+  - name: stage7-2
+    clip: {fileID: 8300000, guid: fea306a0aaef44641b5358007ebba74e, type: 3}
+  - name: stage8
+    clip: {fileID: 8300000, guid: 833c5e65d875f8444bde773a3c37f052, type: 3}
+  - name: stage8-1
+    clip: {fileID: 8300000, guid: 5ac22f47e105bd248986eba6a8f54bc1, type: 3}
+  - name: stage8-2
+    clip: {fileID: 8300000, guid: 5ac22f47e105bd248986eba6a8f54bc1, type: 3}
+  - name: stage9
+    clip: {fileID: 8300000, guid: 0aefd298d4fd13d4b9997288eecf19aa, type: 3}
+  - name: stage9-1
+    clip: {fileID: 8300000, guid: 403267a4e3e73414e92f27278e0409bc, type: 3}
+  - name: stage9-2
+    clip: {fileID: 8300000, guid: dc6ff70fc644e174ca76b81f0356bccf, type: 3}
+  - name: stage10
+    clip: {fileID: 8300000, guid: ce6c9516102639e4c98ea23bb3c7c35c, type: 3}
+  - name: stage10-1
+    clip: {fileID: 8300000, guid: ce6c9516102639e4c98ea23bb3c7c35c, type: 3}
+  - name: stage10-2
+    clip: {fileID: 8300000, guid: 696051243e675a545910ad5c61eaec03, type: 3}
+  - name: stage11
+    clip: {fileID: 8300000, guid: 157af5e65a0152d4ba0f20c65af02f7b, type: 3}
+  - name: stage11-1
+    clip: {fileID: 8300000, guid: 9998928d910f38f45b74f539d65ef660, type: 3}
+  - name: stage11-2
+    clip: {fileID: 8300000, guid: 110922538d6293f449d6c2359c9290a2, type: 3}
+  - name: game-over
+    clip: {fileID: 8300000, guid: ab4b6b5ef305c7848b4ff0c966e68f30, type: 3}
+  - name: stage-win
+    clip: {fileID: 8300000, guid: 6104b0a9a0e32c945ad02a4f2431ab46, type: 3}
+  sfxList:
+  - name: ui-drop
+    clip: {fileID: 8300000, guid: 12db09f8ccc08bc4fa6d857199ae0daa, type: 3}
+  - name: time-low
+    clip: {fileID: 8300000, guid: 672faf5bca1016448a2ec04e5e15a744, type: 3}
+  - name: stage-enter
+    clip: {fileID: 8300000, guid: ec4907d74237441428a0579d29a21b0b, type: 3}
+  - name: stage-start
+    clip: {fileID: 8300000, guid: b1b90cf7e2772be43ab07bc123cc2292, type: 3}
+  - name: stage_complete
+    clip: {fileID: 8300000, guid: bae53e1d321eebf44a8d526eb398463d, type: 3}
+  - name: gameover
+    clip: {fileID: 8300000, guid: 08074f1bd8c4f7d44ac3f0788c4598bc, type: 3}
+  - name: button_hover
+    clip: {fileID: 8300000, guid: 4ae5e541667935c4ba7a3618651928ae, type: 3}
+  - name: button_click0
+    clip: {fileID: 8300000, guid: e720da37f3357ee439f750f464312dc4, type: 3}
+  - name: button_click1
+    clip: {fileID: 8300000, guid: b4e789bea6da56848b8d0883ed49490c, type: 3}
+  - name: gemhit0
+    clip: {fileID: 8300000, guid: c1d9d7c15eb9453479f46b3a67ad725f, type: 3}
+  - name: gemhit1
+    clip: {fileID: 8300000, guid: ef934193af4ceaf46b719d24817a0bdf, type: 3}
+  - name: hatchclick0
+    clip: {fileID: 8300000, guid: faa8f00aa3ad3ab42afba0a1781a66bd, type: 3}
+  - name: hatchclick1
+    clip: {fileID: 8300000, guid: 657ef6343f667b347a5ceddb18935831, type: 3}
+  - name: gemexplode0
+    clip: {fileID: 8300000, guid: 4d66d5a325452c94fad26c3c0c9732be, type: 3}
+  - name: gemexplode1
+    clip: {fileID: 8300000, guid: 1df30ac2e0a752049a0481e3daf807b1, type: 3}
+  - name: gemexplode2
+    clip: {fileID: 8300000, guid: c31f04543c011a944b10c04363f4afa6, type: 3}
+  - name: swap_gem
+    clip: {fileID: 8300000, guid: 2a32c510770f5d84787638964bdcc6d4, type: 3}
+  PossibleGems: []
+  gemFXList:
+  - gemName: emerald
+    gemHitSFX: gemhit0
+    gemExplodeSFX: gemexplode0
+    gemAttachFX: {fileID: 3830797398385064384, guid: 45ccdbacb4a1ea346834db9b8e1fc6c5, type: 3}
+    gemExplodeFX: {fileID: 9061120700360469271, guid: 58cb8d30432a1de4c9a91b776402cdf4, type: 3}
+    fxGradient_0:
+      serializedVersion: 2
+      key0: {r: 0.63898253, g: 1, b: 0.5518868, a: 0}
+      key1: {r: 0.11764706, g: 0.7372549, b: 0.4509804, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 1}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 32768
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    fxGradient_1:
+      serializedVersion: 2
+      key0: {r: 0.11764706, g: 0.7372549, b: 0.4509804, a: 1}
+      key1: {r: 0.11764706, g: 0.7372549, b: 0.4509804, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 13107
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+  - gemName: ruby
+    gemHitSFX: gemhit0
+    gemExplodeSFX: gemexplode0
+    gemAttachFX: {fileID: 3830797398385064384, guid: 45ccdbacb4a1ea346834db9b8e1fc6c5, type: 3}
+    gemExplodeFX: {fileID: 9061120700360469271, guid: 58cb8d30432a1de4c9a91b776402cdf4, type: 3}
+    fxGradient_0:
+      serializedVersion: 2
+      key0: {r: 0.9098039, g: 0.23137255, b: 0.23137255, a: 0}
+      key1: {r: 0.9098039, g: 0.23137255, b: 0.23137255, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 1}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 32768
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    fxGradient_1:
+      serializedVersion: 2
+      key0: {r: 0.9098039, g: 0.23137255, b: 0.23137255, a: 1}
+      key1: {r: 0.9098039, g: 0.23137255, b: 0.23137255, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 13107
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+  - gemName: sapphire
+    gemHitSFX: gemhit1
+    gemExplodeSFX: gemexplode1
+    gemAttachFX: {fileID: 3830797398385064384, guid: 45ccdbacb4a1ea346834db9b8e1fc6c5, type: 3}
+    gemExplodeFX: {fileID: 9061120700360469271, guid: 58cb8d30432a1de4c9a91b776402cdf4, type: 3}
+    fxGradient_0:
+      serializedVersion: 2
+      key0: {r: 0.56078434, g: 0.827451, b: 1, a: 0}
+      key1: {r: 0.56078434, g: 0.827451, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 1}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 32768
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    fxGradient_1:
+      serializedVersion: 2
+      key0: {r: 0.56078434, g: 0.827451, b: 1, a: 1}
+      key1: {r: 0.56078434, g: 0.827451, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 13107
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+  - gemName: topaz
+    gemHitSFX: gemhit1
+    gemExplodeSFX: gemexplode1
+    gemAttachFX: {fileID: 3830797398385064384, guid: 45ccdbacb4a1ea346834db9b8e1fc6c5, type: 3}
+    gemExplodeFX: {fileID: 9061120700360469271, guid: 58cb8d30432a1de4c9a91b776402cdf4, type: 3}
+    fxGradient_0:
+      serializedVersion: 2
+      key0: {r: 0.9764706, g: 0.7607843, b: 0.16862746, a: 0}
+      key1: {r: 0.9764706, g: 0.7607843, b: 0.16862746, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 1}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 32768
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    fxGradient_1:
+      serializedVersion: 2
+      key0: {r: 0.9764706, g: 0.7607843, b: 0.16862746, a: 1}
+      key1: {r: 0.9764706, g: 0.7607843, b: 0.16862746, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 13107
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+  - gemName: amethyst
+    gemHitSFX: gemhit0
+    gemExplodeSFX: gemexplode1
+    gemAttachFX: {fileID: 3830797398385064384, guid: 45ccdbacb4a1ea346834db9b8e1fc6c5, type: 3}
+    gemExplodeFX: {fileID: 9061120700360469271, guid: 58cb8d30432a1de4c9a91b776402cdf4, type: 3}
+    fxGradient_0:
+      serializedVersion: 2
+      key0: {r: 0.91764706, g: 0.6784314, b: 0.92941177, a: 0}
+      key1: {r: 0.91764706, g: 0.6784314, b: 0.92941177, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 1}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 32768
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    fxGradient_1:
+      serializedVersion: 2
+      key0: {r: 0.91764706, g: 0.6784314, b: 0.92941177, a: 1}
+      key1: {r: 0.91764706, g: 0.6784314, b: 0.92941177, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 13107
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+  - gemName: diamond
+    gemHitSFX: gemhit1
+    gemExplodeSFX: gemexplode2
+    gemAttachFX: {fileID: 3830797398385064384, guid: 45ccdbacb4a1ea346834db9b8e1fc6c5, type: 3}
+    gemExplodeFX: {fileID: 9061120700360469271, guid: 58cb8d30432a1de4c9a91b776402cdf4, type: 3}
+    fxGradient_0:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 0}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 1}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 32768
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    fxGradient_1:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 13107
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3

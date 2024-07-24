@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232c6c58b86a166478604dbb3efeb0b4, type: 3}
+  m_Name: CustomFontBlue
+  m_EditorClassIdentifier: 
+  CharacterList:
+  - CharacterSprite: {fileID: 8080191852087542237, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: A
+  - CharacterSprite: {fileID: 2044345556045842047, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: B
+  - CharacterSprite: {fileID: 5851806810362223770, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: C
+  - CharacterSprite: {fileID: -6821796267030668950, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: D
+  - CharacterSprite: {fileID: -7473584612991733028, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: E
+  - CharacterSprite: {fileID: 7696548456465562061, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: F
+  - CharacterSprite: {fileID: 8817629175223140819, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: G
+  - CharacterSprite: {fileID: -3942496656832783936, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: H
+  - CharacterSprite: {fileID: -4573094736223867608, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: I
+  - CharacterSprite: {fileID: -7110871791123927066, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: J
+  - CharacterSprite: {fileID: 6797548692891101610, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: K
+  - CharacterSprite: {fileID: -3287119070722514151, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: L
+  - CharacterSprite: {fileID: 356510288550965265, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: M
+  - CharacterSprite: {fileID: -2647448791461611002, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: N
+  - CharacterSprite: {fileID: 215839316971002170, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: O
+  - CharacterSprite: {fileID: 5836660216344058388, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: P
+  - CharacterSprite: {fileID: 398441344197022625, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: Q
+  - CharacterSprite: {fileID: -4202958101343202773, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: R
+  - CharacterSprite: {fileID: -3156529063180668252, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: S
+  - CharacterSprite: {fileID: -4712896127740463287, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: T
+  - CharacterSprite: {fileID: -345783301271913654, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: U
+  - CharacterSprite: {fileID: -3057942423605939028, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: V
+  - CharacterSprite: {fileID: -3749499076388202289, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: W
+  - CharacterSprite: {fileID: -8429603994481143629, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: X
+  - CharacterSprite: {fileID: -7985332024101117666, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: Y
+  - CharacterSprite: {fileID: 4712665499505852135, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: Z
+  - CharacterSprite: {fileID: -160724366936632991, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: _
+  - CharacterSprite: {fileID: 6623257561582782554, guid: c3f9c4c16c6a26e4a89ccd9627bcd8c6, type: 3}
+    Character: ' '
+  - CharacterSprite: {fileID: 968016414, guid: 091285a64b0e7cd4fb339d2732709324, type: 3}
+    Character: .
+  - CharacterSprite: {fileID: -793072632, guid: 091285a64b0e7cd4fb339d2732709324, type: 3}
+    Character: /
+  - CharacterSprite: {fileID: -1584272665, guid: 091285a64b0e7cd4fb339d2732709324, type: 3}
+    Character: '-'
