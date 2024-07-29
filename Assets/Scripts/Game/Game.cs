@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.Video;
 
 namespace Wozware.CrystalColumns
 {
@@ -59,7 +60,6 @@ namespace Wozware.CrystalColumns
 
 		/// <summary> The current difficulty selected. </summary>
 		[SerializeField] private string _currDifficulty = "easy";
-		private string _selectedPracticeDifficulty = "easy";
 
 		#endregion
 
@@ -101,6 +101,8 @@ namespace Wozware.CrystalColumns
 		[SerializeField] private CustomFont _customFontRed;
 		[SerializeField] private CustomFont _customFontYellow;
 		[SerializeField] private CustomFont _customFontNumbers;
+
+		[SerializeField] private List<VideoPlayer> _tutorialVideos = new();
 
 		[SerializeField] private Color _defaultCameraBG;
 		[SerializeField] private Color _defaultTilemapBG;

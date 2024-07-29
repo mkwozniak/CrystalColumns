@@ -15,16 +15,6 @@ namespace Wozware.CrystalColumns
 
 	#endregion
 
-	#region Constants
-
-	public static class Constants
-	{
-		public static string InitialDropMessage = "INITIAL_\nDROP";
-		public static string ScheduledDropMessage = "SCHEDULED_\nDROP";
-	}
-
-	#endregion
-
 	#region Structs
 
 	/// <summary> Holds the total data of a Blitz mode level. </summary>
@@ -147,14 +137,15 @@ namespace Wozware.CrystalColumns
 	/// <summary> Data for minutes, seconds, and ms. </summary>
 	public struct TimeKeep
 	{
-		public float minutes;
-		public float seconds;
-		public float ms;
+		public float Minutes;
+		public float Seconds;
+		public float Milliseconds;
+
 		public TimeKeep(float minutes, float seconds, float ms)
 		{
-			this.minutes = minutes;
-			this.seconds = seconds;
-			this.ms = ms;
+			this.Minutes = minutes;
+			this.Seconds = seconds;
+			this.Milliseconds = ms;
 		}
 	}
 

@@ -191,9 +191,9 @@ namespace Wozware.CrystalColumns
 
 			_elapsedTimekeep = GetTimeFromSeconds(_currStageTimeElapsed);
 
-			string min_m = GetLeadingStringTime(_elapsedTimekeep.minutes);
-			string min_s = GetLeadingStringTime(_elapsedTimekeep.seconds);
-			string min_ms = GetLeadingStringTime(_elapsedTimekeep.ms);
+			string min_m = GetLeadingStringTime(_elapsedTimekeep.Minutes);
+			string min_s = GetLeadingStringTime(_elapsedTimekeep.Seconds);
+			string min_ms = GetLeadingStringTime(_elapsedTimekeep.Milliseconds);
 
 			_ui.Lbl_ElapsedMin.SetText(min_m);
 			_ui.Lbl_ElapsedSec.SetText(min_s);
@@ -338,13 +338,13 @@ namespace Wozware.CrystalColumns
 
 				_totalElapsedTimekeep = GetTimeFromSeconds(_currTimeElapsed);
 
-				string min_m = GetLeadingStringTime(_totalElapsedTimekeep.minutes);
-				string min_s = GetLeadingStringTime(_totalElapsedTimekeep.seconds);
-				string min_ms = GetLeadingStringTime(_totalElapsedTimekeep.ms);
+				string min_m = GetLeadingStringTime(_totalElapsedTimekeep.Minutes);
+				string min_s = GetLeadingStringTime(_totalElapsedTimekeep.Seconds);
+				string min_ms = GetLeadingStringTime(_totalElapsedTimekeep.Milliseconds);
 
-				string min_sm = GetLeadingStringTime(_elapsedTimekeep.minutes);
-				string min_ss = GetLeadingStringTime(_elapsedTimekeep.seconds);
-				string min_sms = GetLeadingStringTime(_elapsedTimekeep.ms);
+				string min_sm = GetLeadingStringTime(_elapsedTimekeep.Minutes);
+				string min_ss = GetLeadingStringTime(_elapsedTimekeep.Seconds);
+				string min_sms = GetLeadingStringTime(_elapsedTimekeep.Milliseconds);
 
 				_ui.Lbl_WinElapsedMin.SetText(min_m);
 				_ui.Lbl_WinElapsedSec.SetText(min_s);

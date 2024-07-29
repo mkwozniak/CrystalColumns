@@ -83,6 +83,16 @@ namespace Wozware.CrystalColumns
 			_ui.SFXVolumeSlider.value = _settings.SFXVolume;
 			_ui.MusicVolumeSlider.value = _settings.MusicVolume;
 			GenerateBlitzPracticeButtons("easy");
+			InitializeTutorialVideoPaths();
+		}
+
+		private void InitializeTutorialVideoPaths()
+		{
+			_tutorialVideos[0].url = System.IO.Path.Combine(Application.streamingAssetsPath, "tutorial0.mp4");
+			_tutorialVideos[2].url = System.IO.Path.Combine(Application.streamingAssetsPath, "tutorial1.mp4");
+			_tutorialVideos[4].url = System.IO.Path.Combine(Application.streamingAssetsPath, "tutorial2.mp4");
+			_tutorialVideos[5].url = System.IO.Path.Combine(Application.streamingAssetsPath, "tutorial3.mp4");
+			_tutorialVideos[6].url = System.IO.Path.Combine(Application.streamingAssetsPath, "tutorial4.mp4");
 		}
 
 		private void InitializeWorld()
@@ -180,6 +190,7 @@ namespace Wozware.CrystalColumns
 			_isPracticeMode = true;
 			_currStage = stageID;
 			Debug.Log($"Starting Blitz Practice Mode at StageID: {stageID}");
+			DestroyCurrentLevel(); // destroy the current level if there is one.
 			_didShowPrestageMenu = false;
 			SwitchState(GameStates.GamePrestage); // switch state
 			_uiAnimator.SwitchState(UIStates.Prestage);
@@ -217,9 +228,9 @@ namespace Wozware.CrystalColumns
 
 			_totalElapsedTimekeep = GetTimeFromSeconds(_currTimeElapsed);
 
-			string min_m = GetLeadingStringTime(_totalElapsedTimekeep.minutes);
-			string min_s = GetLeadingStringTime(_totalElapsedTimekeep.seconds);
-			string min_ms = GetLeadingStringTime(_totalElapsedTimekeep.ms);
+			string min_m = GetLeadingStringTime(_totalElapsedTimekeep.Minutes);
+			string min_s = GetLeadingStringTime(_totalElapsedTimekeep.Seconds);
+			string min_ms = GetLeadingStringTime(_totalElapsedTimekeep.Milliseconds);
 
 			_ui.Lbl_GameOverElapsedMin.SetText(min_m);
 			_ui.Lbl_GameOverElapsedSec.SetText(min_s);
@@ -396,7 +407,8 @@ namespace Wozware.CrystalColumns
 			_ui.Lbl_PrestageGame.SetText(_currGameMode);
 			if(_isPracticeMode)
 			{
-				_ui.Lbl_PrestageDifficulty.SetText(_selectedPracticeDifficulty.ToUpper());
+				_ui.Lbl_PracticeSelectedDifficulty.SetText(_currDifficulty.ToUpper());
+				_ui.Lbl_PrestageDifficulty.SetText(_currDifficulty.ToUpper());
 			}
 			string randomMode = _randomSeedMode ? "RANDOM SEED" : "OFFICIAL SEED";
 			_ui.Lbl_PrestageSeedMode.SetText(randomMode);
@@ -486,7 +498,7 @@ namespace Wozware.CrystalColumns
 		private void UIStateFadeOut()
 		{
 			Debug.Log($"UI Fade Out: {_uiState}");
-			if(_uiState == UIStates.GameOver)
+			if(_uiState != UIStates.Game)
 			{
 				SetDefaultBackgroundColors();
 				return;
