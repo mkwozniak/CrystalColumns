@@ -155,6 +155,9 @@ namespace Wozware.CrystalColumns
 	{
 		public int BlitzPracticeStageRowMaximum;
 
+		public Image LogoImage1;
+		public Image LogoImage2;
+
 		// UI Object References
 		public GameObject DropUIPanel;
 		public GameObject BlitzTimeGainPanel;
@@ -229,6 +232,7 @@ namespace Wozware.CrystalColumns
 	/// <summary> Game state enum. </summary>
 	public enum GameStates
 	{
+		Logo,
 		Menu,
 		GamePrestage,
 		GamePregame,
@@ -243,7 +247,7 @@ namespace Wozware.CrystalColumns
 
 	public enum UIStates
 	{
-		Loading,
+		Logo,
 		MainMenu,
 		BlitzMenu,
 		Prestage,
@@ -259,6 +263,7 @@ namespace Wozware.CrystalColumns
 		PauseMenu,
 		TutorialMenu,
 		FinalGameWin,
+		Achievements,
 	}
 
 	/// <summary> Game difficulty enum. </summary>

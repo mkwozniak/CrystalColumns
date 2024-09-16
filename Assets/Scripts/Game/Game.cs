@@ -278,6 +278,10 @@ namespace Wozware.CrystalColumns
 		/// <summary> The current stage data. </summary>
 		private Stage _currLvlStage;
 
+		private bool _showedLogo = false;
+		private float _currLogoTimer = 0f;
+		private float _logoTime = 3.0f;
+
 		/// <summary> The current game state. </summary>
 		[SerializeField] private GameStates _gameState;
 		private GameStates _stateBeforePause;

@@ -92,6 +92,11 @@ public sealed class UIAnimator : MonoBehaviour
 		OnSwitchState(UIStates.PracticeMenu);
 	}
 
+	public void SwitchToAchievementsState()
+	{
+		OnSwitchState(UIStates.Achievements);
+	}
+
 	public void SetAnimatorState(int state)
 	{
 		_anim.SetInteger("state", state);

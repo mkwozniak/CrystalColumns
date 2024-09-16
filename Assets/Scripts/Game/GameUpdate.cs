@@ -67,7 +67,7 @@ namespace Wozware.CrystalColumns
 
 		private void UpdateGlobalGameLogic()
 		{
-			if(_gameState == GameStates.Menu)
+			if(_gameState == GameStates.Logo || _gameState == GameStates.Menu)
 			{
 				return;
 			}
@@ -122,6 +122,33 @@ namespace Wozware.CrystalColumns
 				{
 					AdvanceStage();
 				}
+			}
+		}
+
+		private void Update_Logo()
+		{
+			_currLogoTimer += Time.deltaTime;
+
+			if(!_showedLogo)
+			{
+				float div = _currLogoTimer / _logoTime;
+
+				if (div > 0.5f)
+				{
+					_audio.SpawnSFX("stage-start");
+					_ui.LogoImage1.enabled = true;
+					_ui.LogoImage2.enabled = true;
+					_showedLogo = true;
+				}
+			}
+
+
+			if(_currLogoTimer >= _logoTime)
+			{
+				_currLogoTimer = 0f;
+				_audio.SwitchMusic("theme");
+				SwitchState(GameStates.Menu);
+				SwitchUIState(UIStates.MainMenu);
 			}
 		}
 

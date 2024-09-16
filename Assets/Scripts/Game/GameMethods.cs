@@ -36,6 +36,7 @@ namespace Wozware.CrystalColumns
 			_player.OnTriggeredPause = TriggerGamePause;
 
 			// each game state has its own update delegate
+			_stateUpdates[GameStates.Logo] = Update_Logo;
 			_stateUpdates[GameStates.Menu] = UpdateNoBehavior; // menu has no update behavior
 			_stateUpdates[GameStates.GameOver] = UpdateNoBehavior; // game over has no update behavior
 			_stateUpdates[GameStates.GamePrestage] = Update_Prestage;
@@ -61,8 +62,10 @@ namespace Wozware.CrystalColumns
 			_uiAnimator.SetSpeed(_uiAnimationSpeed);
 			_worldAnimator.SetSpeed(_worldAnimationSpeed);
 
-			SwitchState(GameStates.Menu);
-			SwitchUIState(UIStates.MainMenu);
+			_currLogoTimer = 0f;
+
+			SwitchState(GameStates.Logo);
+			SwitchUIState(UIStates.Logo);
 			Screen.SetResolution(1920, 1080, false);
 		}
 
@@ -74,9 +77,6 @@ namespace Wozware.CrystalColumns
 
 			// set the initial pregame time
 			_preGameTimer = _pregameTime;
-
-			// set the main menu theme music
-			_audio.SwitchMusic("theme");
 
 			// TODO: Settings Save File
 			// update settings to default
@@ -507,7 +507,11 @@ namespace Wozware.CrystalColumns
 
 		private void UIStateIdleReady()
 		{
-			_audio.SpawnSFX("ui-drop");
+			if(_uiState != UIStates.Logo)
+			{
+				_audio.SpawnSFX("ui-drop");
+			}
+
 			_eventSystem.SetActive(true);
 		}
 
